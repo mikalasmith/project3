@@ -1,0 +1,17 @@
+/*.smallLogo{
+    display: none;
+}
+
+.navbar{
+    margin: auto;
+    width: 100%;
+    background-color:white;
+    height: 79px; 
+}
+
+@media only screen and (max-width: 600px){
+    .smallLogo{
+        display: inline;
+        margin-left: 40px;
+    }
+}*/
