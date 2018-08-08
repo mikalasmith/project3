@@ -1,4 +1,5 @@
 import React from "react";
+import "./AllOpportunities.css";
 
 const AllOpportunities = props => (
     <div className="search1">

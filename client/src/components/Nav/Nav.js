@@ -13,15 +13,13 @@ const Nav = () => (
     <img src={ volunteerHands }></img>
     <h5 className="my-0 mr-md-auto font-weight-normal" id="site-name">Pay it Forward</h5>
     <nav className="my-2 my-md-0 mr-md-3">
-      <Link className="p-2 text-dark" to="/">home
-        <span className="sr-only">(current)</span>
-        </Link>
-        <Link className="p-2 text-dark" to="/profile">profile</Link>
+      <Link className="p-2 text-dark" to="/home">home</Link>
+        <Link className="p-2 text-dark" to="/volunteerprofile">profile</Link>
         <Link className="p-2 text-dark" to="/allopportunities">opportunities</Link>
-       {/*} <a class="btn btn-outline-primary" href="/logout">log out</a>*/}
-        <Link className="p-2 text-dark" to="/signup">sign up</Link>
+        <Link class="btn btn-outline-primary" to="/home">log out</Link>
+        <Link className="p-2 text-dark" to="/volunteersignup">sign up</Link>
     </nav>
-    {/*<a className="btn btn-outline-primary" href="/singin">log in</a>*/}
+    <Link className="btn btn-outline-primary" to="/signin">log in</Link>
 </div> 
 );
 
